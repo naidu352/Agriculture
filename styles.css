@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Navigation Bar */
+header nav {
+    background-color: black;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+header nav h1 {
+    color: white;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#crops, #economy, #regions ,#depart.agri {
+    background-color: #e9f5e9;
+    margin: 1rem 0;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+/* Login Form */
+.login {
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 2rem;
+    border: 1px ;
+    background-color: lightgreen;
+    border-radius: 8px;
+}
+
+.login h2 {
+    margin-bottom: 1rem;
+}
+
+.login label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.login input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+
+    border-radius: 4px;
+}
+
+.login button {
+    width: 100%;
+    padding: 0.7rem;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: goldenrod;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+/* Crop section styling */
+.crop-type {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.crop-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.crop-type h3 {
+    margin-top: 15px;
+}
+
+.crop-type p {
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+table{
+    background-color: lemonchiffon;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    tr{
+        background-color: skyblue;
+        th{
+            background-color: greenyellow;
+            
+                
+            
+        }
+    }
+}
+#black{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(0, 255, 55);
+    border: 20px solid red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+p{
+    margin: 0px;
+}
+.scheme {
+    background-color: lightsalmon;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.benefits{
+    background: lightsalmon;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+
+}

@@ -1,0 +1,419 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural App - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="checkLogin()">
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <h1>AGRICULTURE</h1>
+            <ul>
+                <li><a href="#" onclick="showSection('home')">HOME</a></li>
+                <li><a href="#" onclick="showSection('crops')">TYPES</a></li>
+                
+                <li><a href="#" onclick="showSection('economy')">GDP/INCOME</a></li>
+                <li><a href="#" onclick="showSection('regions')">REGIONAL </a></li>
+                <li><a href="#" onclick="logoutUser()">LOGOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home-section" class="section">
+        <h1>Welcome to Agriculture</h1>
+        In India agriculture  plays main role in Economy. 
+        <p>Agriculture is a key part of India's economy, employing 60% of the country's workforce and contributing to 17% of its GDP. India is a global agricultural leader, producing the world's largest amount of milk, pulses, and spices. It also has the largest area under wheat, rice, and cotton, and the world's largest cattle herd. 
+            Here are some facts about agriculture in India:
+            Challenges<br><br>
+            <img src="farming.jpg" height=250" width="550"><br><br>
+            Despite India's agricultural success, productivity remains a challenge. Smallholder farmers face challenges such as water shortages, climate change, and fragmented land holdings. 
+            Government initiatives<br>
+            <br>
+            <img src="far.2.webp" height="250" width="450"><br><br>
+            The government has introduced reforms to land distribution, water management, and food distribution systems to increase productivity. The government is also building an agtech ecosystem to support farmers. 
+            Sustainable agriculture
+            Sustainable agriculture is important for rural development. This includes using environmentally sustainable technologies like soil conservation, biodiversity protection, and sustainable natural resource management</p><br><br>
+            <table border="1"> 
+               <tr><b>Crops by season </b> :</tr><br><br>
+                      <th>Name</th>
+                <th>month</th>
+                <th>season</th>
+                <th>crop</th>
+                <tr>
+                    <td>
+                        Rabi
+                    </td>
+                    <td>Nov-Mar</td>
+                    <td>Winter</td>
+                    <td>wheat , types of grams , Mustard......</td>
+                </tr>
+                <tr>
+                    <td>Zaid</td>
+                    <td>mar-june</td>
+                    <td>Summer</td>
+                    <td>Mangoes , Types of Vegetables and Fruits.......</td>
+                </tr>
+                <tr>
+                    <td>Kharif</td>
+                    <td>June-Oct</td>
+                    <td>Moonsoon</td>
+                    <td>Rice , Cotton , Maize............ </td>
+                </tr>
+            </table><br> </section>
+        
+    <!-- Types of Crops Section -->
+    <section id="crops-section" class="section" style="display: none;">
+        <h1>Types of Crops</h1>
+        <P><h3> #In India we have differnt types of crops in diffrent regions and Culltivate based on season in everywhere in India <br>
+        here some of the crops are ......</h3></P>
+
+        <section id="schemes">
+            <h2>Agricultural Schemes</h2>
+               <div class="scheme">
+                <h3>Pradhan Mantri Fasal Bima Yojana (PMFBY)</h3>
+                <p>A government-sponsored crop insurance scheme that aims to protect farmers against crop loss due to natural calamities.</p>
+                <ul>
+                    <li>Risk cover for crops</li>
+                    <li>Premium subsidies for farmers</li>
+                    <li>Financial support for crop failure</li>
+                </ul>
+            </div>
+            <div class="scheme">
+                <h3>Soil Health Card Scheme</h3>
+                <p>This scheme aims to promote soil testing and balanced nutrient use by providing soil health cards to farmers.</p>
+                <ul>
+                    <li>Soil testing for nutrients</li>
+                    <li>Recommendations for balanced fertilizer use</li>
+                    <li>Increased crop productivity</li>
+                </ul>
+            </div>
+        
+        </section>
+    
+        <section id="benefits">
+            <h2>Benefits of Agriculture Schemes</h2>
+            <p>Agricultural schemes provide various benefits to farmers, such as:</p>
+            <ul>
+                <li>Financial stability and risk management</li>
+                <li>Improved crop productivity</li>
+                <li>Enhanced soil health and sustainability</li>
+                <li>Support for advanced farming practices</li>
+            </ul>
+        </section>
+
+        <div class="crop-type">
+            <h3>Cotton Crop</h3>
+            <img src="images\cotton.jpg" alt="Cotton Crops" class="crop-image" height="200" width="550">
+            <p>Cotton is grown on a variety of soils ranging from well drained deep alluvial soils in the north to black clayey soils of varying depth in central region and in black and mixed black and red soils in south zone. Cotton is semi-tolerant to salinity and sensitive to water logging and thus prefers well drained soils.Cotton is one of the most important fiber and cash crop of India and plays a
+                dominant role in the industrial and agricultural economy of the country. It provides the
+                basic raw material (cotton fibre) to cotton textile industry. Cotton in India provides direct
+                livelihood to 6 million farmers and about 40 -50 million people are employed in cotton
+                trade and its processing.
+                In India, there are ten major cotton growing states which are divided into three
+                zones, viz. north zone, central zone and south zone. North zone consists of Punjab,
+                Haryana, and Rajasthan. Central zone includes Madhya Pradesh, Maharashtra and Gujarat.
+                South zone comprises Andhra Pradesh, Telangana, Karnataka and Tamil Nadu. Besides
+                these ten States, cotton cultivation has gained momentum in the Eastern State of Orissa.
+                Cotton is also cultivated in small areas of non-traditional States such as Uttar Pradesh,
+                West Bengal & Tripura.</p>
+        </div>
+        <div class="crop-type">
+            <h3>Wheat Crop</h3>
+            <img src="images\wheat.jpg" alt="Wheat Crops" class="crop-image" height="200" width="550">
+            <p>Wheat is the second most important cereal crop. It is the main food crop in the north and north-western parts of the country. India is the second-largest producer of wheat, accounting for about 14% of the world's total production. India produces approximately 110 MT of wheat each year.
+                Wheat is the second most important food crop in the country after rice both in area and production. About 14% of the total cropped area in the country is under wheat cultivation. India accounts fro about 12% of the total wheat production of world.Wheat is grown in a variety of soils of India. Soils with a clay loam or loam texture, good structure and moderate water holding capacity are ideal for wheat cultivation. Care should be taken to avoid very porous and excessively drained oils. Soil should be neutral in its reaction. Heavy soil with good drainage are suitable for wheat cultivation under dry conditions. These soils absorb and retain rain water well</p>
+        </div>
+         <div class="crop-type">
+            <h3>Rice Crop</h3>
+            <img src="images\rice.jpg" alt="Rice Crops" class="crop-image" height="200" width="550">
+            <p>Rice is one of the most important staple crops in the world, providing sustenance for over half of the global population. The history of rice cultivation dates back over 8,000 years, originating in ancient China and spreading across Asia, where it became a key element of the diet and culture. Today, rice is produced in over 100 countries, with major producers being China, India, Indonesia, Bangladesh, Vietnam, and Thailand. It thrives best in warm, humid climates, typically found in tropical and subtropical regions, and is particularly suited to areas that can support flooded paddies, which help control weeds and pests naturally.    
+               <p>From an agricultural perspective, rice continues to evolve with advances in agricultural science. Researchers are exploring ways to enhance rice nutrition, such as by biofortifying rice with additional nutrients like zinc, iron, and beta-carotene. These innovations aim to combat malnutrition in regions heavily dependent on rice as a primary food source. Additionally, genetic research is leading to the development of new varieties that are more resilient to pests, diseases, and extreme weather conditions, ensuring that rice production can meet the demands of a growing global populatio</p>
+        </div>
+        <div class="crop-type">
+            <h3>mazie Crop</h3>
+            <img src="images\mazie.jpg" alt="maize Crops" class="crop-image" height="200" width="550">
+            <p>Maize, commonly known as corn, is a staple cereal crop with a rich history dating back over 10,000 years to its origins in central Mexico. As one of the world's most important food sources, maize has become integral to human diets, animal feed, and various industrial applications. Maize plants grow as tall, annual grasses with broad leaves and produce kernels on cobs, which are consumed in various forms like fresh corn, popcorn, cornmeal, and corn oil. This cr, making it suitable for a range of climates, from temperate to tropical. As a significant source of carbohydrates, maize contributes to the caloric intake of millions worldwide, especially in countries such as the United States, Brazil, and China, which are the largest maize producers. Furthermore, maize is valued not only for direct consumption but also as a crucial component in animal feed, biofuel production, and as a raw material in the pharmaceutical and cosmetic industries. In recent years, advancements in agricultural technology have led to the development of high-yield and pest-resistant maize varieties, helping farmers increase productivity and reduce the need for chemical inputs. However, maize farming also faces challenges, including soil depletion, climate change, and pest attacks, which necessitate ongoing research and innovation to ensure sustainable cultivation practices. This versatile crop continues to be a cornerstone of agricultural economies worldwide, shaping diets, economies, and societies with its diverse uses and adaptability.</p>
+        </div></section>
+    
+
+    <!-- Agricultural Economy Section -->
+    <section id="economy-section" class="section" style="display: none;">
+        <h2>Agricultural Economy</h2>
+        <p>Explore agricultural economies across continents, key export products, and emerging trends in global trade.<br><br>
+            <h3>Agriculture economies Indicators  :(2014-2023) </h3>
+            <img src="gdp.jpeg" height="200" width="550"><br><br>
+            Agriculture is a vital part of India's economy, providing employment for a large portion of the population and contributing a significant share to the country's GDP:<br><br>
+<b>Employment</b>: Agriculture employs around half of India's workforce.<br><br>
+<b>GDP :</b> Agriculture contributes around 18% to India's GDP.<br><br>
+<b>Food production :</b> India is a major producer of many agricultural products, including milk, pulses, wheat, rice, groundnuts, fruits, vegetables, sugarcane, tea, jute, cotton, and tobacco leaves.<br><br>
+<b>Exports :</b> India's agriculture exports reached a record high of $50 billion in 2021-22.<br><br>
+<b>Aquaculture:</b> India is a leading aquaculture exporter in the APAC region<br><br>
+
+<table border="2" > 
+    <tr><b>GDP of Agriculture</b> :</tr><br><br>
+           <th>Year</th>
+     <th>Agricultural share</th>
+     <th>agriculture (INR Crore)</th>
+     
+     <tr>
+         <td>
+             2012-13
+
+         </td>
+         <td>~17.9%</td>
+         <td>15,72,408</td>
+         
+     </tr>
+     <tr>
+         <td>2013-14</td>
+         <td>~18.1%</td>
+         <td>17,14,424</td>
+         
+     </tr>
+     <tr>
+         <td>2014-15</td>
+         <td>~17.9%</td>
+         <td>18,53,554</td>
+         
+     </tr>
+     <td>
+        2015-16
+
+    </td>
+    <td>~17.8%</td>
+    <td>19,95,828</td>
+    
+</tr>
+<tr>
+    <td>2016-17</td>
+    <td>~17.7%</td>
+    <td>21,55,586</td>
+</tr>
+<tr>
+    <td>2017-18</td>
+    <td>~17.6%</td>
+    <td>23,53,689</td>
+    
+</tr>
+<td>
+    2018-19
+
+</td>
+<td>~17.6%</td>
+<td>26,14,811</td>
+
+</tr>
+<tr>
+<td>2019-20</td>
+<td>~18.4%</td>
+<td>28,92,444</td>
+</tr>
+<tr>
+<td>2020-2021</td>
+<td>~19.9%</td>
+<td>31,57,385</td>
+
+</tr>
+<tr>
+    <td>2020-22</td>
+    <td>~18.8%</td>
+    <td>34,97,267</td>
+    </tr>
+    <tr>
+    <td>2022-2023</td>
+    <td>~18.2%</td>
+    <td>35,55,897</td>
+    
+    </tr>
+ </table><br><br>
+ <h3>Agriculture in Foreign countries : </h3>
+ <p>In other countries also Agriculture is most sources of their GDP like India ,<br>
+    Agriculture is one of the largest and most significant industries in the world, so taking measures to increase production levels is key for the security and health of a country's population. Of the major cereal and vegetable crops, the United States, China, India, and Russia are the top producers.
+ </p><br><br>
+<b>Cultivation in Foreign countries ::</b><br><br>
+ <img src="us.jpg" height="200" width="550"><br><br>
+ <p><b>Mention below Table About GDP of agriculture sector in top 5 countries (2023) ::</b></p>
+ <table border="3">
+    <tr>
+        <th>RANK</th>
+        <th>Country</th>
+        <th> Total GDP(USD Billion)</th>
+        <th>Agriculture(% of GDP)</th>
+        <th>Agriculture GDP (USD Billion)</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>China</td>
+        <td>23,210</td>
+        <td>7.9</td>
+        <td>1,833.6</td>
+        <tr>
+        <td>2</td>
+        <td>India</td>
+        <td>9,474</td>
+        <td>15.4</td>
+        <td>1,459</td>
+        
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Indonesia</td>
+        <td>3,250</td>
+        <td>13.7</td>
+        <td>445.3</td>
+        
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>US</td>
+        <td>19,490</td>
+        <td>0.9</td>
+        <td>175.4</td>
+        
+    </tr>
+    <td>5</td>
+    <td>Pakistan</td>
+    <td>1,121</td>
+    <td>24.4</td>
+    <td>258.9</td>
+    
+
+ </table>
+
+</section>
+
+    
+
+ 
+    <!-- Regional Agricultural Section -->
+    <section id="regions-section" class="section" style="display: none;">
+        <h2>Regional Crops</h2>
+        <h3>Foreign Agricultural Practices</h3>
+        <p>Discover diverse agricultural practices in countries worldwide.</p><br>
+      <p>Agriculture is a major industry in many countries, and there are a number of differences in agricultural practices and technologies across the world::<br><br>
+    
+     <b>Agricultural practices ::</b> In developed countries, advanced agricultural practices and technologies are used to increase productivity and crop yields. These include precision farming, which uses data from GPS, sensors, and drones to optimize resource allocation. In contrast, many regions in India still use traditional farming methods.<br><br>
+     <b> Genetically modified organisms (GMOs) ::</b>
+      Some countries use GMOs to increase crop resistance, combat pests, and increase yield. However, in India, there is resistance to GMOs due to concerns about environmental impact, biodiversity loss, and potential health risks.<br><br>
+     <h3>Here some countries with thier most famous Crops ::</h3>
+     <center><div id="black">
+     <img src="piechart.jpeg" height="200" width="450"></div></center><br><br>
+     <b>Access to financial support ::</b>
+     In many countries, farmers have access to credit, insurance, and subsidies through government support and robust financial systems. This allows them to invest in modern technologies and sustainable practices.<br><br>
+     <b>Top agricultural producers ::</b>
+     The top producers of major cereal and vegetable crops include the United States, China, India, and Russia. China is the world's largest producer of many agricultural products, including rice, wheat, corn, potatoes, soybeans, cotton, and tobacco.<br><br>
+     <b>Agricultural exports ::</b>
+     The United States is the world's top exporter of agricultural products</p>
+        
+        <h3> Some State-Wise Crops in India</h3>
+        <p>Check the crops grown across various states </p>
+        <table border="4">
+            <tr><b>Crop wise famous State ::</b></tr>
+            <th>Crop Name</th>
+            <th>States (by whose Cultivate's)</th>
+            <tr>
+                <td>Rice</td>
+                <td>AP , WB , UP</td>
+                
+            </tr>
+            <td>Wheat</td>
+            <td>UP , PB , HR</td>
+            <tr>
+                <td>Bajra</td>
+                <td>RJ , UP , GJ</td>
+
+            </tr>
+            <tr>
+                <td>Maize</td>
+                <td>KR , MP , BR</td>
+            </tr>
+            <tr>
+                <td>pulses</td>
+                <td>MP , UP , AP</td>
+            </tr>
+            <tr>
+                <td>Cotton</td>
+                <td>GJ , MR , PB</td>
+            </tr>
+            
+        </table>
+        AP :: Andhra Pradesh<br>
+        WB :: West Bengal<br>
+        UP :: Uttar Pradesh<br>
+        PB :: Punjab<br>
+        HR :: Haryana<br>
+        RJ :: Rajasthan<br>
+        KR :: Karnataka<br>
+        MP :: Madhya Pradesh<br><br>
+        <div id="e">
+            <h2><u>Any Problem/issues</u> : Contact us by your details...</h2>
+            <form selection="">
+                
+                <label for="name"><b>Name</b></label>
+                <input type="text" id="name" placeholder="Full name"><br>
+     <br>
+    
+     <label for="Class"><b>Email</b></label>
+     <input type="text"id="email" placeholder="email"><br>
+     <br>
+    
+     <label for="cities"><b>City</b></label>
+     <select name="cities" id="cities">
+         <option value="select">select</option>
+     <option value="Andhra Pradesh">Andhra pradesh</option>
+     <option value="Punjab">Punjab</option>
+     <option value="Chennai">Tamilnadu</option>
+     <option value="Gujarat">Gujarat</option>
+     <select><br><br>
+         <label for="dddd"><b>Related scheme</b></label>
+     <select name="cities" id="cities">
+         <option value="select">select</option>
+     <option value="rrrrrr">PM-KISAN</option>
+     <option value="xxxxx">PM-KMY</option>
+     <option value="oooo">PM-FBY</option>
+    
+     <select><br><br>
+     <label for="adress"><b>issues/problem</b></label>
+     <textarea name="Adress" id="adress"
+        cols="20" rows="5"></textarea><br><br>
+    
+    
+    
+     <label for="gender"><b>Gender</b></label>
+     <input type="radio" name="gender"
+     vaue="male">male
+     
+     <input type="radio" name="gender"
+     vaue="female">female
+     <br><br>
+     <label for="upload file">any document</label>
+     <input type="file"><br><br>
+      
+     <input type="submit" value="submit form">
+      </form>
+        </div>
+    
+        </div>
+    
+    </section>
+    
+</header>
+
+
+
+    <!-- Contact Section -->
+    <footer>
+        <h2>Contact Us</h2>
+        <p>Email: vigneshnaidu125@gmail.com | Phone: 96874481144</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+ 
+    
+    
